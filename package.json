@@ -1,15 +1,39 @@
 {
-  "name": "dwusers",
-  "version": "0.1.0",
+  "name": "nextjs-boilerplate",
+  "version": "0.5.0",
   "private": true,
+  "author": {
+    "name": "TJ Eastmond",
+    "email": "tj.eastmond@gmail.com",
+    "url": "https://tjeastmond.com"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start"
   },
+  "lint-staged": {
+    "src/**/*.{ts,tsx,js,css,json}": [
+      "prettier --write",
+      "git add"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
   "dependencies": {
-    "next": "9.5.1",
+    "@material-ui/core": "^4.11.0",
+    "axios": "^0.19.2",
+    "next": "^9.5.2",
     "react": "16.13.1",
-    "react-dom": "16.13.1"
+    "react-dom": "16.13.1",
+    "styled-components": "^5.1.1"
+  },
+  "devDependencies": {
+    "husky": "^4.2.5",
+    "lint-staged": "^10.2.13",
+    "prettier": "^2.0.5"
   }
 }

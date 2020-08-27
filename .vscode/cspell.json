@@ -1,0 +1,35 @@
+{
+    "version": "0.1",
+    "language": "en",
+    "words": [
+        "ACATS",
+        "asdasdf",
+        "dont",
+        "downlevel",
+        "dwusers",
+        "Expando",
+        "fomantic",
+        "gulpfile",
+        "Inteliclear",
+        "JNLC",
+        "Mgmt",
+        "noopener",
+        "noreferrer",
+        "nums",
+        "overscan",
+        "Parens",
+        "Permissioned",
+        "prcocessing",
+        "Progressbar",
+        "Reco",
+        "unexpandable",
+        "Xtra",
+        "Zoomable"
+    ],
+    "ignorePaths": [
+        "node_modules",
+        "**/node_modules",
+        "**/node_modules/**",
+        "build"
+    ]
+}
